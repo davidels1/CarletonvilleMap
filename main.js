@@ -24,7 +24,7 @@ let panelID = "my-info-panel";
  */
 function init() {
   // Create a new Leaflet map centered on the continental US
-    map = L.map("map").setView([27.3906313, -26.3451055], 11);
+    map = L.map("map").setView(40, -100], 11);
 
   // This is the Carto Positron basemap
   L.tileLayer(
